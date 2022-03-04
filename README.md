@@ -1,1 +1,2 @@
-This repo contains files that contains shell commands
+# ALX System Engineering Devops
+The repo contains files with common shell commands
