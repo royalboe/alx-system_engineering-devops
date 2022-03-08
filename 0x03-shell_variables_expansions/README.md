@@ -1,1 +1,2 @@
-# Shell Variables Expansions\nShell commands for variables expansions
+# Shell Variables Expansions
+Shell commands for variables expansions
