@@ -35,5 +35,5 @@ Files | Description
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<img src="https://avatars.githubusercontent.com/u/99494922?v=4" width="75px;"/><br /><sub><b>Ayomide Johnaon Salami</b></sub>[💻](https://github.com/Royalboe/alx-system_engineering-devops/commits?author=Royalboe "Code") [📖](https://github.com/Royalboe/alx-system_engineering-devops/commits?author=Royalboe "Documentation") [🤔]
+<!-- <img src="https://avatars.githubusercontent.com/u/99494922?v=4" width="75px;"/><br /><sub><b>Ayomide Johnaon Salami</b></sub>[💻](https://github.com/Royalboe/alx-system_engineering-devops/commits?author=Royalboe "Code") [📖](https://github.com/Royalboe/alx-system_engineering-devops/commits?author=Royalboe "Documentation") [🤔] -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
