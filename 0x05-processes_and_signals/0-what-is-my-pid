@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to display program PID
+
+echo $BASHPID #can also be $$
