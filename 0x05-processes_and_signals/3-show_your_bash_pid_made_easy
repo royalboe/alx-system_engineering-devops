@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to search and display lines containing the bash word
+
+pgrep -l "bash"
