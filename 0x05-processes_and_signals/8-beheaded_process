@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to stop a certain process
+
+kill -9 "$(pgrep -f 7-highlander)"
