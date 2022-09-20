@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # installs nginx on a remote server and configures it
-
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
