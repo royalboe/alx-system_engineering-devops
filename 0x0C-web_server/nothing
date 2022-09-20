@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# installs nginx on a remote server and configures it
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+sudo service nginx start
