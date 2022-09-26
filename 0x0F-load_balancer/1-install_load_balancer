@@ -35,8 +35,8 @@ stats uri /haproxy?stats
     balance roundrobin
     option httpclose
     option forwardfor
-    server 375-web-01 44.192.74.79:80 check
-    server 375-web-02 44.200.28.66:80 check
+    server 375-web-01 35.173.42.252:80 check
+    server 375-web-02 44.211.23.142:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 service haproxy start
