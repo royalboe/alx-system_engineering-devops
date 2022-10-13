@@ -14,7 +14,7 @@ Directories | Description
 [0x06-regular_expressions](./0x06-regular_expressions) | Introduction to Regular Expressions
 [0x07-networking_basics](./0x07-networking_basics) | Introduction to networking
 [0x08-networking_basics_2](./0x08-networking_basics_2) | Introduction to networking two
-
+[0x0B-ssh](./0x0B-ssh) | Introduction to SSH
 
 
 
