@@ -1,0 +1,2 @@
+`sudo mysql`
+`CREATE USER 'username'@'host' IDENTIFIED WITH authentication_plugin BY 'password';`
