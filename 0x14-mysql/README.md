@@ -3,6 +3,12 @@
 ## Description
 This project sets up a MySQL primary-replica cluster on our own servers.
 
+## To uninstall MySql
+- sudo systemctl stop mysql 
+- sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+- sudo apt autoremove
+- sudo apt autoclean
+
 ## Table of contents
 Files | Description
 ----- | -----------
