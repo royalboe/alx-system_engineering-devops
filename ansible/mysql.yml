@@ -1,0 +1,70 @@
+- name: My SQL
+  hosts: all
+  remote_user: root
+  become: yes
+
+  vars:
+    db_password: <your password>
+    db_username: <your username>
+    db_database: <your database>
+
+  tasks:
+
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
+        update_cache: yes
+
+    - name: Setting timezone to Africa/Lagos
+      community.general.timezone:
+        name: Africa/Lagos
+
+    - name: install mysql
+      ansible.builtin.package:
+        name:
+          - mysql-server
+          - mysql-client
+          - python3-mysqldb
+          - libmysqlclient-dev
+      update_cache: yes
+      state: present
+
+    - name: copy .conf file with mysql credentials
+      copy:
+        src: .my.cnf
+        dest: /root/.my.cnf
+        owner: root
+        group: root
+        mode: 0600
+
+    - name: Create mysql root password
+      community.mysql.mysql_user:
+        name: "{{ db_username }}"
+        password: "{{ db_password }}"
+        host: 'localhost'
+        state: present
+        login_user: root
+        login_password: 'password'
+        check_implicit_admin: yes
+        priv: "*.*:ALL,GRANT"
+      notify:
+        - Restart mysql
+
+    - name: Create a new database
+      community.mysql.mysql_db:
+        name: "{{ db_database }}"
+        state: present
+        login_user: "{{ db_username }}"
+        login_password: "{{ db_password }}"
+
+  handler:
+    - name: Restart mysql
+      service:
+        name: mysql
+        state: restarted
+
+    - name: Start mysql
+      service:
+        name: mysql
+        state: started
