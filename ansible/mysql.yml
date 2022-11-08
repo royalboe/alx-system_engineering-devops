@@ -3,10 +3,8 @@
   remote_user: root
   become: yes
 
-  vars:
-    db_password: <your password>
-    db_username: <your username>
-    db_database: <your database>
+  vars_files:
+    - vars/config
 
   tasks:
 

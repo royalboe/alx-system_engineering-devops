@@ -4,16 +4,8 @@
   remote_user: root
   become: yes
 
-  vars:
-    php_version: 8.1
-    repos: "https://github.com/Royalboe/laravel-realworld-example-app.git"
-    db_password: <your password>
-    db_username: <your username>
-    ip_address: <your ip>
-    server_document_root: "/var/www/html/myapp/public"
-    db_database: <your database>
-    db_port: 3306
-    db_connection: mysql 
+  vars_files:
+    - vars/config
 
   tasks:
     - name: Upgrade System
