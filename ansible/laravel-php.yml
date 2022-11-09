@@ -9,10 +9,6 @@
 
   tasks:
 
-    - name: Add appach stable repository from PPA and install
-      ansible.builtin.apt_repository:
-        repo: ppa:ondrej/php
-
     - name: Upgrade System
       apt: upgrade=dist update_cache=yes
       become: yes
