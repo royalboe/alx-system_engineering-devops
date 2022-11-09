@@ -37,7 +37,3 @@
       community.general.ufw:
         state: enabled
 
-    - name: Set logging
-      community.general.ufw:
-        logging: 'on'
-
