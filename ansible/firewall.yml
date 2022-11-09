@@ -1,0 +1,43 @@
+---
+- name: Firewall
+  hosts: all
+  remote_user: root
+  become: yes
+
+  vars_files:
+    - vars/config
+
+  tasks:
+
+    - name: Allowing all access to port 80
+      community.general.ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+
+    - name: Allowing all access to port 433
+      community.general.ufw:
+        rule: allow
+        port: '443'
+        proto: tcp
+
+    - name: Allowing all access to port 22
+      community.general.ufw:
+        rule: allow
+        port: '22'
+        proto: tcp
+
+    - name: Allowing all access to port Apache2
+      community.general.ufw:
+        rule: allow
+        port: 'Apache2'
+        proto: all
+
+    - name: Enabling UFW, allowing all traffic
+      community.general.ufw:
+        state: enabled
+
+    - name: Set logging
+      community.general.ufw:
+        logging: 'on'
+
