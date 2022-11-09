@@ -27,12 +27,6 @@
         port: '22'
         proto: tcp
 
-    - name: Allowing all access to port Apache2
-      community.general.ufw:
-        rule: allow
-        port: 'Apache2'
-        proto: all
-
     - name: Enabling UFW, allowing all traffic
       community.general.ufw:
         state: enabled
