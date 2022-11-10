@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Reload gunicorn worker processes gracefully, with no downtime
+sudo pkill -HUP gunicorn
