@@ -169,5 +169,5 @@
     - name: setup laravel
       shell: |
         cd /var/www/html/myapp
-        php artisan migrate --seed
+        php artisan migrate
       become: yes
