@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Reload gunicorn worker processes gracefully, with no downtime
 
-pgrep gunicorn | awk '{ print $2 }' | xargs kill -HUP
+kill -HUP `ps -C gunicorn fch -o pid | head -n 1`
