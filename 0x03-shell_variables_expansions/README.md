@@ -1,5 +1,7 @@
 # Shell Variables Expansions
+
 ## Description
+
 Shell commands for variables expansions
 
 ## Learning Objectives
