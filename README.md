@@ -28,3 +28,8 @@ Directories | Description
 [0x14-mysql](./0x14-mysql/) | Introduction to mysql
 [0x15-api](./0x15-api/) | Introduction to api
 [0x16-api_advanced](./0x16-api_advanced/) | Advanced API
+[0x17-web_stack_debugging_3](./0x17-web_stack_debugging_3/) | Web Stack Debugging
+[0x18-webstack_monitoring](./0x18-webstack_monitoring/) | Web Stack Monitoring
+[command_line_for_the _win](./command_line_for_the_win/) | Command lines
+[0x1A-application_server](./0x1A-application_server/) | Application servers
+[0x1B-web_stack_debugging_4](./0x1B-web_stack_debugging_4/) | Web Stack Debugging
