@@ -1,12 +1,17 @@
 # Basic Shell Commands
+
 The folder contains commands for navigating and for manipulating files.
 
 ## Description
+
 This projection serves as an intoduction to shell
 
 A shell is a user interface for access to an operating system's services. Most often the user interacts with the shell using a command-line interface (CLI). The terminal is a program that opens a graphical window and lets you interact with the shell.
+
 ### Objectives
+
 At the end of the project I was able to explain the following
+
 * What does RTFM mean?
 * What is a Shebang
 * What is the Shell
@@ -44,7 +49,7 @@ At the end of the project I was able to explain the following
 * Common shortcuts for Bash
 * LTS
 
-### Files 
+### Files
 
 - [File 0-current_working_directory](./0-current_working_directory) prints the current working directory.
 
