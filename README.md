@@ -1,8 +1,11 @@
 # ALX System Engineering Devops
+
 ## Description
+
 The repo contains folders for ALX SE School projects
 
 ## Table of contents
+
 Directories | Description
 ----------- | -----------
 [0x00-shell_basics](./0x00-shell_basics) | Introduction to the basics of the Linux Shell
@@ -33,3 +36,13 @@ Directories | Description
 [command_line_for_the _win](./command_line_for_the_win/) | Command lines
 [0x1A-application_server](./0x1A-application_server/) | Application servers
 [0x1B-web_stack_debugging_4](./0x1B-web_stack_debugging_4/) | Web Stack Debugging
+
+## Stats
+
+[![GitHub issues](https://img.shields.io/github/issues/Royalboe/alx-system_engineering-devops)](https://github.com/Royalboe/alx-system_engineering-devops/issues)  [![GitHub forks](https://img.shields.io/github/forks/Royalboe/alx-system_engineering-devops)](https://github.com/Royalboe/alx-system_engineering-devops/network)  [![GitHub stars](https://img.shields.io/github/stars/Royalboe/alx-system_engineering-devops)](https://github.com/Royalboe/alx-system_engineering-devops/stargazers)
+
+![GitHub watchers](https://img.shields.io/github/watchers/Royalboe/alx-system_engineering-devops?style=social)
+
+## Author
+
+ Salami Ayomide Johnson - [Ayomide](https://github.com/Royalboe)
